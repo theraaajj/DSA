@@ -58,8 +58,8 @@ int main(){
     fourth -> data = 66;
     fourth -> next = NULL;
 
-    head = insertAfterNode(head, third, 8834);         // head dete hain just for simplicity, warna complexity aajta hai.. if not hata kar dekh lo, toh function bhi kya return karega???
-    traversal(head);
+    head = insertAfterNode(head, third, 8834);        // we provide head as a parameter to keep it simple, otherwise what will the function return? 
+    traversal(head);                                  
 
     return 0;
 }
