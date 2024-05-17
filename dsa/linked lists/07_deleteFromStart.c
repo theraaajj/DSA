@@ -64,7 +64,7 @@ int main(){
     fourth -> data = 66;
     fourth -> next = NULL;
 
-    head = deleteFromStart(head);         // ye function jo return krrha (head), usko head banana hai na
+    head = deleteFromStart(head);         // you have to make it the head when it's returned
     traversal(head);
 
     return 0;
