@@ -63,11 +63,10 @@ int main(){
     fourth -> data = 66;
     fourth -> next = NULL;
 
-    head = deleteFromBetween(head, 66);         // ye function jo return krrha (head), usko head banana hai na
+    head = deleteFromBetween(head, 66);         // you have to make it the head when it's returned
     traversal(head);
 
     return 0;
 }
 
 
-// did it myself again. bingooooo!!!
