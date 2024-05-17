@@ -61,7 +61,7 @@ int main(){
     fourth -> data = 66;
     fourth -> next = NULL;
 
-    head = insertInBetween(head, 56, 2);        // ye function jo return krrha (head), usko head banana hai na
+    head = insertInBetween(head, 56, 2);        // you have to make it the head when it's returned
     traversal(head);
 
     return 0;
